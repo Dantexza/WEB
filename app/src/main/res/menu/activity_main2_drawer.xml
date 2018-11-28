@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="INICIO" />
+        <item
+            android:id="@+id/nav_patchs"
+            android:title="PATCHS" />
+        <item
+
+            android:id="@+id/nav_videos"
+            android:title="VIDEOS" />
+        <item
+            android:id="@+id/nav_events"
+            android:title="EVENTOS" />
+
+        <item android:title="GUIAS"
+            android:id="@+id/nav_guias"/>
+        <item android:title="CLASSES"
+            android:id="@+id/nav_class"
+            />
+        <item android:title="JOBS"
+            android:id="@+id/nav_jobs"/>
+        <item android:title="CRAFTING"
+            android:id="@+id/nav_craft"/>
+        <item android:title="GATHERING"
+
+            android:id="@+id/nav_Gather"
+            />
+        <item android:title="DUTIES"
+            android:id="@+id/nav_duty"/>
+        <item android:title="LOGS"
+            android:id="@+id/nav_log"/>
+
+
+    </group>
+
+
+
+</menu>
